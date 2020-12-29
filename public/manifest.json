@@ -3,19 +3,24 @@
   "short_name": "Eco Agora",
   "icons": [
     {
-      "src": "/img/icon-192.png",
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+      "src": "/ecovias-logo-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/icon-512.png",
+      "src": "/ecovias-logo-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "background_color": "#06092B",
+  "background_color": "#232323",
   "description": "Aplicação utilizado para ver o estado atual das ecovias",
   "display": "fullscreen",
   "start_url": "/",
-  "theme_color": "#06092B"
+  "theme_color": "#ad4"
 }
