@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render header 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.5rem;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #ad4;
+}
+
+.c2 {
+  position: absolute;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.8rem;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 5rem;
+  height: 5rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.c3 {
+  height: 8px;
+  background: #ffffff;
+  opacity: 1;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.c3:nth-child(2) {
+  -webkit-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+.c4 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 5rem;
+  opacity: 1;
+  visibility: visible;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #232323;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.c5 {
+  padding: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.c5:hover {
+  color: #ad4;
+  background-color: #1b1b1b;
+}
+
+<header
+  class="c0"
+>
+  <h1
+    class="c1"
+  >
+    Eco Agora
+  </h1>
+  <div
+    aria-label="Menu button"
+    class="c2"
+    role="button"
+  >
+    <div
+      class="c3"
+    />
+    <div
+      class="c3"
+    />
+    <div
+      class="c3"
+    />
+  </div>
+  <nav
+    aria-hidden="true"
+    class="c4"
+  >
+    <a
+      class="c5"
+    >
+      Endereço 1
+    </a>
+    <a
+      class="c5"
+    >
+      Endereço 2
+    </a>
+    <a
+      class="c5"
+    >
+      Endereço 3
+    </a>
+  </nav>
+</header>
+`
