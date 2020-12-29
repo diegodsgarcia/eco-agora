@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render the component 1`] = `
+.c0 {
+  text-align: center;
+}
+
+.c1 {
+  font-size: 2rem;
+}
+
+.c2 {
+  font-size: 1.8rem;
+  margin: 2rem 0;
+}
+
+<div
+  class="c0"
+>
+  <h2
+    class="c1"
+  >
+    Ops! Ocorreu algum :(
+  </h2>
+  <p
+    class="c2"
+  >
+    Ops! Ocorreu algum problema
+  </p>
+</div>
+`
